@@ -2,3 +2,4 @@
 kubeconfig*
 .terraform
 .terraform.lock.hcl
+terragrunt/live/global_values.yaml
