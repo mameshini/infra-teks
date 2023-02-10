@@ -85,7 +85,7 @@ inputs = {
   # For this to work:
   # * GITHUB_TOKEN should be set
   flux2 = {
-    enabled               = true
+    enabled               = false
     target_path           = "gitops/clusters/${include.root.locals.merged.env}/${include.root.locals.merged.name}"
     github_url            = "ssh://git@github.com/particuleio/teks"
     repository            = "teks"
