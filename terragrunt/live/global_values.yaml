@@ -1,7 +1,7 @@
 ---
 provider: aws
 # Your AWS Account ID
-aws_account_id: XX210XX08XXX
+aws_account_id: 822105308772
 
 # Prefix to be added to created resources
 prefix: infra-teks
